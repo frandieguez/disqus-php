@@ -2,12 +2,10 @@
     "name": "drexarj/disqus-php",
     "license": "Apache-2.0",
     "type": "project",
-    "description": "The official PHP client library for disqus, with added composer.json.",
-    "autoload": {
-        "classmap": { "": "disqusapi/" }
-    },
+    "description": "Improved PHP client library for Disqus API",
     "require": {
-        "php": ">=5.3.0"
+        "php": ">=5.3.0",
+        "json": "*"
     },
     "minimum-stability": "stable"
 }
